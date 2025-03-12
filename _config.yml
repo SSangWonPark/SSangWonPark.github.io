@@ -22,7 +22,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "SSangWon's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "박 상원"
 description              : "An amazing website."
 url                      : "https://SSangWonPark.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
