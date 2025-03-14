@@ -26,7 +26,7 @@ name: "Park SangWon" # 블로그 가장 하단 부분 @2023 {name} Powered by �
 description: "공부 중"
 url: "https://SSangWonPark.github.io" # 블로그의 주소
 baseurl: # 블로그 접속 오류가 발생(fallback)했을 때 연결되는 서브 주소
-repository: "https://github.com/SSangWonPark"  # 깃허브 저장소
+repository: "SSangWonPark/SSangWonPark.github.io"  # 깃허브 저장소
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # 제목 옆에 있는 로고 이미지
 masthead_title: # 블로그 제목 로고 옆의 제목목
@@ -36,7 +36,7 @@ enable_copy_code_button: # true, false (default)
 copyright: # "copyright" name, defaults to site.title
 copyright_url: # "copyright" URL, defaults to site.url
 comments:
-  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: "utterances"# false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -47,8 +47,8 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: # "github-light" (default), "github-dark"
-    issue_term: # "pathname" (default)
+    theme: "github-dark" # "github-light" (default), "github-dark"
+    issue_term: "pathname" # "pathname" (default)
   giscus:
     repo_id: # Shown during giscus setup at https://giscus.app
     category_name: # Full text name of the category
