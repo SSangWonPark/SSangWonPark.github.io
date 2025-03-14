@@ -418,6 +418,10 @@ body {
 /*
    Comments
    ========================================================================== */
+// 댓글 기능을 위한 추가
+ .utterances {
+    max-width: 100% !important;
+  }
 
 .page__comments {
   float: inline-start;
