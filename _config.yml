@@ -47,7 +47,7 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: "Boxy Light" # 댓글창 테마 설정
+    theme: "boxy-light" # 댓글창 테마 설정
     issue_term: "pathname" # "pathname" (default)
   giscus:
     repo_id: # Shown during giscus setup at https://giscus.app
@@ -113,7 +113,7 @@ analytics:
     tracking_id:
     anonymize_ip: # true, false (default)
 
-# Site Author : 블로그 왼쪽 부분분
+# Site Author : 블로그 왼쪽 부분
 author:
   name: "Park SangWon"
   avatar: # 이름 위의 사진
