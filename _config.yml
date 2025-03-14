@@ -17,19 +17,19 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 future: true
 
 # Site Settings
-locale: "en-US"
+locale: "ko-KR" # 블로그 기본 언어 설정정
 rtl: # true, false (default) # turns direction of the page into right to left for RTL languages
-title: "SSangWon's Blog"
+title: "SSangWon's Blog"  # 사이트 탭에 블로그 이름름
 title_separator: "-"
-subtitle: # site tagline that appears below site title in masthead
-name: "박 상원"
+subtitle: # 블로그 제목 아래 표시
+name: "Park SangWon" # 블로그 가장 하단 부분 @2023 {name} Powered by 부분
 description: "공부 중"
-url: "https://SSangWonPark.github.io"
-baseurl: # the subpath of your site, e.g. "/blog"
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url: "https://SSangWonPark.github.io" # 블로그의 주소
+baseurl: # 블로그 접속 오류가 발생(fallback)했을 때 연결되는 서브 주소
+repository: "https://github.com/SSangWonPark"  # 깃허브 저장소
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+logo: # 제목 옆에 있는 로고 이미지
+masthead_title: # 블로그 제목 로고 옆의 제목목
 breadcrumbs: # true, false (default)
 words_per_minute: 200
 enable_copy_code_button: # true, false (default)
@@ -113,11 +113,11 @@ analytics:
     tracking_id:
     anonymize_ip: # true, false (default)
 
-# Site Author
+# Site Author : 블로그 왼쪽 부분분
 author:
   name: "Park SangWon"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Studing"
+  avatar: # 이름 위의 사진
+  bio: "Studing"  # 소개란
   location: "Anywhere"
   email:
   links:
@@ -140,7 +140,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-# Site Footer
+# Site Footer : 블로그 하단 부분
 footer:
   links:
     - label: "Twitter"
