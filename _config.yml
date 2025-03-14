@@ -17,9 +17,9 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 future: true
 
 # Site Settings
-locale: "ko-KR" # 블로그 기본 언어 설정정
+locale: "ko-KR" # 블로그 기본 언어 설정
 rtl: # true, false (default) # turns direction of the page into right to left for RTL languages
-title: "SSangWon's Blog"  # 사이트 탭에 블로그 이름름
+title: "SSangWon's Blog"  # 사이트 탭에 블로그 이름
 title_separator: "-"
 subtitle: # 블로그 제목 아래 표시
 name: "Park SangWon" # 블로그 가장 하단 부분 @2023 {name} Powered by 부분
@@ -29,7 +29,7 @@ baseurl: # 블로그 접속 오류가 발생(fallback)했을 때 연결되는 �
 repository: "SSangWonPark/SSangWonPark.github.io"  # 깃허브 저장소
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # 제목 옆에 있는 로고 이미지
-masthead_title: # 블로그 제목 로고 옆의 제목목
+masthead_title: # 블로그 제목 로고 옆의 제목
 breadcrumbs: # true, false (default)
 words_per_minute: 200
 enable_copy_code_button: # true, false (default)
@@ -47,7 +47,7 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: "github-dark" # "github-light" (default), "github-dark"
+    theme: "Boxy Light" # 댓글창 테마 설정
     issue_term: "pathname" # "pathname" (default)
   giscus:
     repo_id: # Shown during giscus setup at https://giscus.app
