@@ -26,6 +26,13 @@
       </main>
     </div>
 
+    <!-- 사이드바 삭제 -->
+    {% if page.layout != "single" %}
+  <aside class="sidebar">
+    {% include sidebar.html %}
+  </aside>
+  {% endif %}
+
     {% if site.search == true %}
       <div class="search-content">
         {% include_cached search/search_form.html %}
