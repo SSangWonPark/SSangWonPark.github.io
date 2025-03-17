@@ -2,6 +2,6 @@
 
 layout: category
 
-title: Data_Structure
+title: DataStructure
 
 ---
