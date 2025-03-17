@@ -16,11 +16,6 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 future: true
 
-# 사이드바 설정 추가
-sidebar:
-  nav: "sidebar"
-
-
 # Site Settings
 locale: "ko-KR" # 블로그 기본 언어 설정
 rtl: # true, false (default) # turns direction of the page into right to left for RTL languages
@@ -95,6 +90,10 @@ bing_site_verification:
 naver_site_verification:
 yandex_site_verification:
 baidu_site_verification:
+
+# 사이드바 설정 추가
+sidebar:
+  nav: "sidebar"
 
 # Social Sharing
 twitter:
