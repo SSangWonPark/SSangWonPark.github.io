@@ -92,8 +92,8 @@ yandex_site_verification:
 baidu_site_verification:
 
 # 사이드바 설정 추가
-# sidebar:
-#   nav: "sidebar"
+sidebar:
+  nav: "sidebar"
 
 # Social Sharing
 twitter:
