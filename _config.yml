@@ -91,7 +91,7 @@ naver_site_verification:
 yandex_site_verification:
 baidu_site_verification:
 
-사이드바 설정 추가
+# 사이드바 설정 추가
 sidebar:
   nav: "sidebar"
 
