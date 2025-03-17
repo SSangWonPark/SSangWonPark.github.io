@@ -16,15 +16,15 @@ main:
     url: "/"
   - title: "Categories"
     children:
-      - title: "Data Structure"
-        url: "/category/Data_Structure/"
+      - title: "DataStructure"
+        url: "/category/DataStructure/"
       - title: "Algorithms"
         url: "/category/Algorithms/"
 
 sidebar:
   - title: "Categories"
     children:
-      - title: "Data Structure"
-        url: "/category/Data_Structure/"
+      - title: "DataStructure"
+        url: "/category/DataStructure/"
       - title: "Algorithms"
         url: "/category/Algorithms/"
