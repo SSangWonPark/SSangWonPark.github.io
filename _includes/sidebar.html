@@ -18,8 +18,9 @@
   </div>
 {% endif %} -->
 
+
 {% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
+  <aside class="sidebar sticky">
     {% if page.author_profile or layout.author_profile %}
       {% include author-profile.html %}
     {% endif %}
@@ -27,8 +28,7 @@
     {% if page.sidebar %}
       {% for s in page.sidebar %}
         {% if s.image %}
-          <img src="{{ s.image | relative_url }}"
-               alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+          <img src="{{ s.image | relative_url }}" alt="{{ s.image_alt | default: '' }}">
         {% endif %}
         {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
         {% if s.text %}{{ s.text | markdownify }}{% endif %}
@@ -39,7 +39,7 @@
       {% endif %}
     {% endif %}
     
-    <!-- ✅ 수정된 카테고리 목록 -->
+    <!-- ✅ 카테고리 목록 (위치 조정) -->
     <div class="sidebar__categories">
       <h3>Categories</h3>
       <ul>
@@ -54,6 +54,7 @@
       </ul>
     </div>
 
-  </div>
+  </aside>
 {% endif %}
+
 
