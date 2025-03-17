@@ -1,4 +1,4 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
+<!-- {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
@@ -16,4 +16,20 @@
     {% endif %}
   {% endif %}
   </div>
-{% endif %}
+{% endif %} -->
+
+<!-- 카테고리 목록 -->
+<div class="sidebar__categories">
+  <h3>Categories</h3>
+  <ul>
+    {% for category in site.categories %}
+      {% assign category_name = category | first %}
+      <li>
+        <a href="{{ site.baseurl }}/category/{{ category_name | replace: ' ', '_' }}/">
+          {{ category_name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+

@@ -10,3 +10,13 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+  main:
+  - title: "Home"
+    url: "/"
+  - title: "Categories"
+    children:
+      - title: "Data Structure"
+        url: "/category/Data_Structure/"
+      - title: "Algorithms"
+        url: "/category/Algorithms/"
