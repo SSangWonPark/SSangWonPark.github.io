@@ -1,4 +1,4 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
+<!-- {% if page.author_profile or layout.author_profile or page.sidebar %}
 <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include
   author-profile.html %}{% endif %} {% if page.sidebar %} {% for s in
@@ -13,21 +13,41 @@
   %}{% include nav_list nav=s.nav %}{% endif %} {% endfor %} {% if
   page.sidebar.nav %} {% include nav_list nav=page.sidebar.nav %} {% endif %} {%
   endif %}
+</div> 원본 이 한글글은 원본 사용시 제거
+{% endif %} -->
+
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+<div class="sidebar sticky">
+  <!-- 저자 프로필 (이름, 깃허브 등) -->
+  {% if page.author_profile or layout.author_profile %} {% include
+  author-profile.html %} {% endif %}
+
+  <!-- 기존 sidebar 설정 -->
+  {% if page.sidebar %} {% for s in page.sidebar %} {% if s.image %}
+  <img
+    src="{{ s.image | relative_url }}"
+    alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}"
+  />
+  {% endif %} {% if s.title %}
+  <h3>{{ s.title }}</h3>
+  {% endif %} {% if s.text %} {{ s.text | markdownify }} {% endif %} {% if s.nav
+  %} {% include nav_list nav=s.nav %} {% endif %} {% endfor %} {% endif %}
+
+  <!-- ⭐ 카테고리 목록 추가 (이름, 깃허브 아래로) -->
+  <div class="sidebar__categories">
+    <h3>Categories</h3>
+    <ul>
+      {% for category in site.categories %} {% assign category_name = category |
+      first %}
+      <li>
+        <a
+          href="{{ site.baseurl }}/category/{{ category_name | replace: ' ', '_' }}/"
+        >
+          {{ category_name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 {% endif %}
-
-<div class="sidebar__categories">
-  <h3>Categories</h3>
-  <ul>
-    {% for category in site.categories %} {% assign category_name = category |
-    first %}
-    <li>
-      <a
-        href="{{ site.baseurl }}/category/{{ category_name | replace: ' ', '_' }}/"
-      >
-        {{ category_name }}
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
