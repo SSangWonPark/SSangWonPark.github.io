@@ -11,15 +11,15 @@
 # - title: "Sitemap"
 #   url: /sitemap/
 
-main:
-  - title: "Home"
-    url: "/"
-  - title: "Categories"
-    children:
-      - title: "DataStructure"
-        url: "/category/DataStructure/"
-      - title: "Algorithms"
-        url: "/category/Algorithms/"
+# main:
+#   - title: "Home"
+#     url: "/"
+#   - title: "Categories"
+#     children:
+#       - title: "DataStructure"
+#         url: "/category/DataStructure/"
+#       - title: "Algorithms"
+#         url: "/category/Algorithms/"
 # sidebar:
 #   - title: "Categories"
 #     children:
