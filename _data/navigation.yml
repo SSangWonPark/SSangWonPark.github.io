@@ -1,26 +1,25 @@
 # main links
 # main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+# - title: "Quick-Start Guide"
+#   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+# - title: "About"
+#   url: https://mmistakes.github.io/minimal-mistakes/about/
+# - title: "Sample Posts"
+#   url: /year-archive/
+# - title: "Sample Collections"
+#   url: /collection-archive/
+# - title: "Sitemap"
+#   url: /sitemap/
 
-# main:
-#   - title: "Home"
-#     url: "/"
-#   - title: "Categories"
-#     children:
-#       - title: "DataStructure"
-#         url: "/category/DataStructure/"
-#       - title: "Algorithms"
-#         url: "/category/Algorithms/"
-
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Categories"
+    children:
+      - title: "DataStructure"
+        url: "/category/DataStructure/"
+      - title: "Algorithms"
+        url: "/category/Algorithms/"
 # sidebar:
 #   - title: "Categories"
 #     children:
