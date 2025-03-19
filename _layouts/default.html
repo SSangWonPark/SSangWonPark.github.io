@@ -27,7 +27,7 @@
     </div>
 
     <!-- 사이드바 삭제 -->
-    {% if page.layout != "single" %}
+    {% if page.layout != "single" and page.layout != "home" %}
   <aside class="sidebar">
     {% include sidebar.html %}
   </aside>
